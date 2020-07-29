@@ -1,0 +1,4 @@
+﻿create user 'developer' IDENTIFIED WITH mysql_native_password BY 'bA@bA#090987';
+grant all privileges on *.* to developer with grant option;
+flush privileges;
+create database saleswebmvcappdb;
